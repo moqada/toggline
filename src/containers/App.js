@@ -11,7 +11,7 @@ export default class App extends React.Component {
    *
    * @return {ReactElement}
    */
-  render() {
+  render(): React.Element {
     return <h1>App</h1>;
   }
 }
