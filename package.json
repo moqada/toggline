@@ -38,6 +38,8 @@
     "npm-run-all": "^1.4.0",
     "power-assert": "^1.2.0",
     "redux-devtools": "^3.0.1",
+    "redux-devtools-dock-monitor": "^1.0.1",
+    "redux-devtools-log-monitor": "^1.0.1",
     "stylus": "^0.53.0",
     "watchify": "^3.6.1"
   },
