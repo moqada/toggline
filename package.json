@@ -22,6 +22,7 @@
     "babel-core": "^6.3.26",
     "babel-eslint": "^4.1.6",
     "babel-plugin-espower": "^2.0.0",
+    "babel-plugin-react-transform": "^2.0.0",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babelify": "^7.2.0",
@@ -37,9 +38,11 @@
     "gh-pages": "^0.8.0",
     "isparta": "^4.0.0",
     "jade": "^1.11.0",
+    "livereactload": "^2.1.0",
     "mocha": "^2.3.4",
     "npm-run-all": "^1.4.0",
     "power-assert": "^1.2.0",
+    "react-proxy": "^1.1.2",
     "redux-devtools": "^3.0.1",
     "redux-devtools-dock-monitor": "^1.0.1",
     "redux-devtools-log-monitor": "^1.0.1",
@@ -77,6 +80,6 @@
     "watch:flow": "flow & chokidar src/ -c flow",
     "watch:jade": "jade src --watch --out dist",
     "watch:lint": "chokidar src test -c 'npm run -s lint'",
-    "watch:js": "watchify -v -t babelify src/app.js -o dist/app.js"
+    "watch:js": "watchify -v -t babelify -p livereactload src/app.js -o dist/app.js"
   }
 }
