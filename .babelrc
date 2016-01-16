@@ -5,8 +5,9 @@
       "plugins": [
         ["react-transform", {
           "transforms": [{
-            "transform": "livereactload/babel-transform",
-              "imports": ["react"]
+            "transform": "react-transform-hmr",
+            "imports": ["react"],
+            "locals": ["module"]
           }]
         }]
       ]
