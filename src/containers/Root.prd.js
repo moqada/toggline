@@ -12,7 +12,7 @@ const store = configureStore();
  *
  * @return {ReactElement}
  */
-export default function Root(): React.Element {
+export default function Root() {
   return (
     <Provider store={store}>
       <App />

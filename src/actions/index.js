@@ -6,9 +6,8 @@ import fetch from 'isomorphic-fetch';
 /**
  * Login
  *
- * @param {string} username username
- * @param {string} password password
- * @return {Function}
+ * @param username - username
+ * @param password - password
  */
 export function login(username: string, password: string): Function {
   return dispatch => {

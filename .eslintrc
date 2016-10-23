@@ -1,2 +1,5 @@
-extends: moqada/react
+extends:
+  - moqada/react
+  - moqada/flow
+  - moqada/flow-jsdoc
 parser: babel-eslint
